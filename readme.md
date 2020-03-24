@@ -1,38 +1,11 @@
-Sprawozdanie z Laboratorium Interfejsów Obiektowych\
-\
-\
-<span> **Stacja pogodowa **</span>\
-\
+# Kurs IO LAB , rok akademicki 2019/20 .
 
-<span>0.4</span>
+"Stacja pogodowa"
 
 **Autorzy:**\
 Przemysław Widz\
 Oskar Więckowicz
 
- 
-
-<span>0.4</span>
-
-**Prowadzący:**\
-Mgr inż. Wojciech Tarnawski\
-
-\
-
-<span>0.4</span>
-
-**Data oddania:**\
-14.01.2020
-
- 
-
-<span>0.4</span>
-
-**Termin zajęć:**\
-
-PIĄTEK/TP 14:30 - 17:30
-
-\
 
 ![Zdjęcie projektu ](projekt.png "fig:") [fig:my~l~abel]
 
