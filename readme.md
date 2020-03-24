@@ -1,11 +1,11 @@
 # Kurs IO LAB , rok akademicki 2019/20 .
 
-"Stacja pogodowa"
-
-**Autorzy:**\
-PrzemysÅ‚aw Widz\
-Oskar WiÄ™ckowicz
-
+|  Temat projektu : | Stacja pogodowa  |
+| :------------: | :------------: |
+|  Autorzy :  |  Przemys³aw Widz , Oskar Wiêckowicz   |
+| Prowadz¹cy :  | Mgr inz. Wojciech Tarnawski  |
+|  Data oddania :  | 14.01.2020r.  |
+|  Termin zajêæ :   |  PIATEK/TP 14:30 - 17:30 | 
 
 ![ZdjÄ™cie projektu ](projekt.png "fig:") [fig:my~l~abel]
 
