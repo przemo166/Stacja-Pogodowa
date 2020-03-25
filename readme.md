@@ -7,7 +7,7 @@
 |  Data oddania :  | 14.01.2020r.  |
 |  Termin zajêæ :   |  PIATEK/TP 14:30 - 17:30 | 
 
-![Zdjêcie projektu ](projekt.png "fig:") [fig:my~l~abel]
+![Zdjêcie projektu ](photos/projekt.png "fig:") [fig:my~l~abel]
 
 Za³o¿enia projektowe
 ====================
@@ -29,7 +29,7 @@ wysy³anie bie¿¹cych danych z czujników na komputer lub smartfon.
 U¿yte elementy
 ==============
 
-![Zdjêcia elementów u¿ytych do projektu ](elementy.png "fig:")
+![Zdjêcia elementów u¿ytych do projektu ](photos/elementy.png "fig:")
 [fig:my~l~abel]
 
 **Do przygotowania stacji pogodowej u¿yto nastêpuj¹cych elementów :**
@@ -112,10 +112,11 @@ kolejnoœci zgodnej z pêtl¹ g³ówn¹ programu :
 Zatem czas trwania pêtli to 6 sekund (3 x 2 sekundy), zakoñczone
 wys³aniem danych na komputer lub smartfon.
 
-![Przyk³adowy cykl pracy wyœwietlacza ](cykl.PNG "fig:") [fig:my~l~abel]
+![Przyk³adowy cykl pracy wyœwietlacza ](photos/cykl.PNG "fig:")
+[fig:my~l~abel]
 
 ![Przesy³ danych na komputer (z lewej) oraz telefon (z prawej)
-](lol.PNG "fig:") [fig:my~l~abel]
+](photos/sending.PNG "fig:") [fig:my~l~abel]
 
 Przebieg realizacji projektu
 ============================
@@ -151,8 +152,8 @@ siê obiektami gotowych klas.
 Schemat po³¹czeñ
 ================
 
-![Schemat po³¹czeñ elementów stacji pogodowej ](schemat.jpg "fig:")
-[fig:my~l~abel]
+![Schemat po³¹czeñ elementów stacji pogodowej
+](photos/schemat.jpg "fig:") [fig:my~l~abel]
 
 Kosztorys projektu
 ==================
