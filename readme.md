@@ -2,202 +2,201 @@
 
 |  Temat projektu : | Stacja pogodowa  |
 | :------------: | :------------: |
-|  Autorzy :  |  Przemys³aw Widz , Oskar Wiêckowicz   |
-| Prowadz¹cy :  | Mgr inz. Wojciech Tarnawski  |
+|  Autorzy :  |  PrzemysÅ‚aw Widz , Oskar WiÄ™ckowicz   |
+| ProwadzÄ…cy :  | Mgr inz. Wojciech Tarnawski  |
 |  Data oddania :  | 14.01.2020r.  |
-|  Termin zajêæ :   |  PIATEK/TP 14:30 - 17:30 | 
+|  Termin zajÄ™Ä‡ :   |  PIATEK/TP 14:30 - 17:30 | 
 
-![Zdjêcie projektu ](photos/projekt.png "fig:") [fig:my~l~abel]
+![Test Image 1](photos/projekt.png)
 
-Za³o¿enia projektowe
+ZaÅ‚oÅ¼enia projektowe
 ====================
 
-Celem projektu by³o stworzenie prostej stacji pogodowej, powiadamiaj¹cej
-u¿ytkownika o nastêpuj¹cych informacjach :
+Celem projektu byÅ‚o stworzenie prostej stacji pogodowej, powiadamiajÄ…cej
+uÅ¼ytkownika o nastÄ™pujÄ…cych informacjach :
 
-1.  bie¿¹cy czas i data
+1.  bieÅ¼Ä…cy czas i data
 
-2.  temperatura powietrza pochodz¹ca z dwóch osobnych czujników
+2.  temperatura powietrza pochodzÄ…ca z dwÃ³ch osobnych czujnikÃ³w
 
-3.  ciœnienie atmosferyczne
+3.  ciÅ›nienie atmosferyczne
 
-4.  wilgotnoœæ powietrza
+4.  wilgotnoÅ›Ä‡ powietrza
 
-Do stacji pomiarowej dodano równie¿ modu³ Bluetooth umo¿liwiaj¹cy zdalne
-wysy³anie bie¿¹cych danych z czujników na komputer lub smartfon.
+Do stacji pomiarowej dodano rÃ³wnieÅ¼ moduÅ‚ Bluetooth umoÅ¼liwiajÄ…cy zdalne
+wysyÅ‚anie bieÅ¼Ä…cych danych z czujnikÃ³w na komputer lub smartfon.
 
-U¿yte elementy
+UÅ¼yte elementy
 ==============
 
-![Zdjêcia elementów u¿ytych do projektu ](photos/elementy.png "fig:")
-[fig:my~l~abel]
+![Test Image 1](photos/elementy.png)
 
-**Do przygotowania stacji pogodowej u¿yto nastêpuj¹cych elementów :**
 
--   **Klon Arduino Uno** (do wstêpnego projektu na p³ytce stykowej)
+**Do przygotowania stacji pogodowej uÅ¼yto nastÄ™pujÄ…cych elementÃ³w :**
 
-    Arduino Uno to popularna p³ytka z mikrokontrolerem ATmega328 z
-    rodziny AVR wyposa¿ony w 14 cyfrowych wejœæ/wyjœæ z czego 6 mo¿na
-    wykorzystaæ jako wyjœcia PWM oraz 6 analogowych wejœæ.
+-   **Klon Arduino Uno** (do wstÄ™pnego projektu na pÅ‚ytce stykowej)
 
--   **Klon Arduino Nano** (do projektu koñcowego)
+    Arduino Uno to popularna pÅ‚ytka z mikrokontrolerem ATmega328 z
+    rodziny AVR wyposaÅ¼ony w 14 cyfrowych wejÅ›Ä‡/wyjÅ›Ä‡ z czego 6 moÅ¼na
+    wykorzystaÄ‡ jako wyjÅ›cia PWM oraz 6 analogowych wejÅ›Ä‡.
+
+-   **Klon Arduino Nano** (do projektu koÅ„cowego)
 
     Arduino Nano to popularna wersja Uno w mniejszym rozmiarze: 45 x 18
-    mm. P³ytka zawiera mikrokontroler ATmega328 wyposa¿ony w 22 cyfrowe
-    wejœcia/wyjœcia z czego 6 mo¿na wykorzystaæ jako wyjœcia PWM oraz 8
-    jako wejœcia analogowe.
+    mm. PÅ‚ytka zawiera mikrokontroler ATmega328 wyposaÅ¼ony w 22 cyfrowe
+    wejÅ›cia/wyjÅ›cia z czego 6 moÅ¼na wykorzystaÄ‡ jako wyjÅ›cia PWM oraz 8
+    jako wejÅ›cia analogowe.
 
--   **Wyœwietlacz LCD 2x20**
+-   **WyÅ›wietlacz LCD 2x20**
 
-    Popularny wyœwietlacz 2 x 20 znaków podœwietlany w kolorze
+    Popularny wyÅ›wietlacz 2 x 20 znakÃ³w podÅ›wietlany w kolorze
     niebieskim.
 
 -   **Czujnik temperatury i wilgoci DHT22**
 
-    Czujnik temperatury i wilgotnoœci powietrza z interfejsem cyfrowym,
-    jednoprzewodowym. Zakres pomiarowy: temperatura -40 do 80 °C,
-    wilgotnoœæ 0-100 %RH.
+    Czujnik temperatury i wilgotnoÅ›ci powietrza z interfejsem cyfrowym,
+    jednoprzewodowym. Zakres pomiarowy: temperatura -40 do 80 Â°C,
+    wilgotnoÅ›Ä‡ 0-100 %RH.
 
--   **Modu³ bluetooth HC-05**
+-   **ModuÅ‚ bluetooth HC-05**
 
-    Modu³ Blootooth v2.0 + EDR klasa 2. Pracuje z napiêciem 3,3 V,
-    komunikuje siê poprzez interfejs szeregowy UART (piny RX, TX),
-    wspiera komendy AT. Maksymalna moc nadajnika wynosi + 4 dBm, czu³oœæ
-    odbiornika to - 85 dBm. Modu³ Bluetooth pozwala na po³¹czenie
-    dowolnego urz¹dzenia z telefonem, smartfonem, tabletem lub innym
-    urz¹dzeniem bezprzewodowo.
+    ModuÅ‚ Blootooth v2.0 + EDR klasa 2. Pracuje z napiÄ™ciem 3,3 V,
+    komunikuje siÄ™ poprzez interfejs szeregowy UART (piny RX, TX),
+    wspiera komendy AT. Maksymalna moc nadajnika wynosi + 4 dBm, czuÅ‚oÅ›Ä‡
+    odbiornika to - 85 dBm. ModuÅ‚ Bluetooth pozwala na poÅ‚Ä…czenie
+    dowolnego urzÄ…dzenia z telefonem, smartfonem, tabletem lub innym
+    urzÄ…dzeniem bezprzewodowo.
 
--   **Czujnik ciœnienia atmosferycznego i temperatury BMP280**
+-   **Czujnik ciÅ›nienia atmosferycznego i temperatury BMP280**
 
-    Modu³ z cyfrowym barometrem firmy Bosch BMP180. Zakres pomiarowy
-    wynosi od 200 do 1100 hPa z dokonanoœci¹ 0,02 hPa. Zasilany jest
-    napiêciem z zakresu 1,8 - 3,6 V.
+    ModuÅ‚ z cyfrowym barometrem firmy Bosch BMP180. Zakres pomiarowy
+    wynosi od 200 do 1100 hPa z dokonanoÅ›ciÄ… 0,02 hPa. Zasilany jest
+    napiÄ™ciem z zakresu 1,8 - 3,6 V.
 
 -   **Zegar czasu rzeczywsitego RTC DS1307**
 
-    Modu³ z zegarem czasu rzeczywistego i rezerwowym zasilaniem
-    bateryjnym, które ma na zadanie podtrzymanie pracy zegara po zaniku
-    g³ównego zasilania uk³adu. Pozwala na odczyt czasu w postaci
-    godziny, minuty i sekundy oraz daty: miesi¹c, dzieñ, rok.
+    ModuÅ‚ z zegarem czasu rzeczywistego i rezerwowym zasilaniem
+    bateryjnym, ktÃ³re ma na zadanie podtrzymanie pracy zegara po zaniku
+    gÅ‚Ã³wnego zasilania ukÅ‚adu. Pozwala na odczyt czasu w postaci
+    godziny, minuty i sekundy oraz daty: miesiÄ…c, dzieÅ„, rok.
     Interfejsem komunikacyjnym jest magistrala I2C.
 
 -   **Potencjometr 10k**
 
-    Rezystor nastawny, który dzia³a na zasadzie klasycznego dzielnika
-    napiêcia. Typowym zastosowaniem potencjometrów jest regulacja pr¹du
-    lub napiêcia w urz¹dzeniach elektrycznych. W tym przypadku zosta³
-    u¿yty do regulacji kontrastu w wyœwietlaczu LCD.
+    Rezystor nastawny, ktÃ³ry dziaÅ‚a na zasadzie klasycznego dzielnika
+    napiÄ™cia. Typowym zastosowaniem potencjometrÃ³w jest regulacja prÄ…du
+    lub napiÄ™cia w urzÄ…dzeniach elektrycznych. W tym przypadku zostaÅ‚
+    uÅ¼yty do regulacji kontrastu w wyÅ›wietlaczu LCD.
 
 -   **Bateria 9V**
 
-    Bateria u¿yta do samodzielnego zasilania stacji pogodowej.
+    Bateria uÅ¼yta do samodzielnego zasilania stacji pogodowej.
 
-Dzia³anie stacji pogodowej
+DziaÅ‚anie stacji pogodowej
 ==========================
 
-Stacja pogodowa dokonuje pomiarów wilgotnoœci, temperatury, ciœnienia
-atmosferycznego oraz czasu. Nastêpnie wyniki pomiarów pokazywane s¹ na
-wyœwietlaczu LCD oraz przesy³ane przez bluetooth na telefon lub komputer
-i wyœwietlane na nich za pomoc¹ aplikacji Bluetooth Terminal.
+Stacja pogodowa dokonuje pomiarÃ³w wilgotnoÅ›ci, temperatury, ciÅ›nienia
+atmosferycznego oraz czasu. NastÄ™pnie wyniki pomiarÃ³w pokazywane sÄ… na
+wyÅ›wietlaczu LCD oraz przesyÅ‚ane przez bluetooth na telefon lub komputer
+i wyÅ›wietlane na nich za pomocÄ… aplikacji Bluetooth Terminal.
 
-Wyœwietlanie danych na wyœwietlaczu odbywa siê co dwie sekundy, w
-kolejnoœci zgodnej z pêtl¹ g³ówn¹ programu :
+WyÅ›wietlanie danych na wyÅ›wietlaczu odbywa siÄ™ co dwie sekundy, w
+kolejnoÅ›ci zgodnej z pÄ™tlÄ… gÅ‚Ã³wnÄ… programu :
 
--   temperatury (z obu czujników)
+-   temperatury (z obu czujnikÃ³w)
 
--   ciœnienie i wilgotnoœæ
+-   ciÅ›nienie i wilgotnoÅ›Ä‡
 
 -   data i czas
 
-Zatem czas trwania pêtli to 6 sekund (3 x 2 sekundy), zakoñczone
-wys³aniem danych na komputer lub smartfon.
+Zatem czas trwania pÄ™tli to 6 sekund (3 x 2 sekundy), zakoÅ„czone
+wysÅ‚aniem danych na komputer lub smartfon.
 
-![Przyk³adowy cykl pracy wyœwietlacza ](photos/cykl.PNG "fig:")
-[fig:my~l~abel]
+![Test Image 1](photos/cykl.PNG)
 
-![Przesy³ danych na komputer (z lewej) oraz telefon (z prawej)
-](photos/sending.PNG "fig:") [fig:my~l~abel]
+![Test Image 1](photos/sending.PNG)
+
 
 Przebieg realizacji projektu
 ============================
 
-Prototyp stacji pogodowej by³ realizowany na p³ytce stykowej przy pomocy
-Arduino Uno. Budowe stacji pogodowej zaczêto od pod³aczenia czujników do
-Arduino oraz stworzenia programu obs³uguj¹cego je. Nastepnie dodany
-zosta³ wyœwietlacz LCD, na którym zosta³y wyœwietlone dane pomiarowe.
-Kolejnym etapem by³a realizacja komunikacji bezprzewodowej przy pomocy
-modu³u bluetooth oraz zasilanie z baterii. Nastêpnie, gdy prototypowa
-stacja pogodowa dzia³a³a poprawnie, zamieniono Ardunino Uno na Arduino
-Nano w celu zaoszczêdzenia miejsca na uniwersalnej p³ytce PCB, do której
-przylutowane zosta³y wszystkie elementy.
+Prototyp stacji pogodowej byÅ‚ realizowany na pÅ‚ytce stykowej przy pomocy
+Arduino Uno. Budowe stacji pogodowej zaczÄ™to od podÅ‚aczenia czujnikÃ³w do
+Arduino oraz stworzenia programu obsÅ‚ugujÄ…cego je. Nastepnie dodany
+zostaÅ‚ wyÅ›wietlacz LCD, na ktÃ³rym zostaÅ‚y wyÅ›wietlone dane pomiarowe.
+Kolejnym etapem byÅ‚a realizacja komunikacji bezprzewodowej przy pomocy
+moduÅ‚u bluetooth oraz zasilanie z baterii. NastÄ™pnie, gdy prototypowa
+stacja pogodowa dziaÅ‚aÅ‚a poprawnie, zamieniono Ardunino Uno na Arduino
+Nano w celu zaoszczÄ™dzenia miejsca na uniwersalnej pÅ‚ytce PCB, do ktÃ³rej
+przylutowane zostaÅ‚y wszystkie elementy.
 
-Podczas realizacji projektu napotkano kilka problemów. Jednym z nich by³
-niedzia³aj¹cy wyœwietlacz LCD, na którym mia³y byæ wyœwietlane dane
-pomiarowe. Okaza³o siê, ¿e z³¹cza mêskie dziêki, którym mozna umieœciæ
-wyœwietlacz na p³ytce stykowej nie by³y do niego przylutowane przez co
-jakiœ element nie styka³. W pierwotnym projekcie bezprzewodowa
-komunikacja stacji pogodowej mia³a byæ realizawana za pomoc¹ wifi.
-Zakupiono wiêc modu³ ESP8266, jednak napotkano problemy, których nie
-uda³o siê rozwi¹zaæ. W efekcie bezprzewodow¹ komunikacjê zrealizowano
-przy pomocy modu³u bluetooth HC-05, który pozwala przesy³aæ dane na
-telefon. Dane odebrane ze stacji pogodowej wyœwietlane s¹ w aplikacji
+Podczas realizacji projektu napotkano kilka problemÃ³w. Jednym z nich byÅ‚
+niedziaÅ‚ajÄ…cy wyÅ›wietlacz LCD, na ktÃ³rym miaÅ‚y byÄ‡ wyÅ›wietlane dane
+pomiarowe. OkazaÅ‚o siÄ™, Å¼e zÅ‚Ä…cza mÄ™skie dziÄ™ki, ktÃ³rym mozna umieÅ›ciÄ‡
+wyÅ›wietlacz na pÅ‚ytce stykowej nie byÅ‚y do niego przylutowane przez co
+jakiÅ› element nie stykaÅ‚. W pierwotnym projekcie bezprzewodowa
+komunikacja stacji pogodowej miaÅ‚a byÄ‡ realizawana za pomocÄ… wifi.
+Zakupiono wiÄ™c moduÅ‚ ESP8266, jednak napotkano problemy, ktÃ³rych nie
+udaÅ‚o siÄ™ rozwiÄ…zaÄ‡. W efekcie bezprzewodowÄ… komunikacjÄ™ zrealizowano
+przy pomocy moduÅ‚u bluetooth HC-05, ktÃ³ry pozwala przesyÅ‚aÄ‡ dane na
+telefon. Dane odebrane ze stacji pogodowej wyÅ›wietlane sÄ… w aplikacji
 Bluetooth Terminal.
 
 Arduino zapewnia gotowe biblioteki przez co programowanie
 mikrokontrolera jest programowaniem wysokopoziomowym, a co za tym idzie
-du¿o przyjemniejszym i prostszym. Ka¿dy modu³ u¿yty w projekcie mia³
-swoje dedykowane biblioteki, dziêki czemu w kodzie Ÿród³owym pos³ugiwano
-siê obiektami gotowych klas.
+duÅ¼o przyjemniejszym i prostszym. KaÅ¼dy moduÅ‚ uÅ¼yty w projekcie miaÅ‚
+swoje dedykowane biblioteki, dziÄ™ki czemu w kodzie ÅºrÃ³dÅ‚owym posÅ‚ugiwano
+siÄ™ obiektami gotowych klas.
 
-Schemat po³¹czeñ
+Schemat poÅ‚Ä…czeÅ„
 ================
 
-![Schemat po³¹czeñ elementów stacji pogodowej
-](photos/schemat.jpg "fig:") [fig:my~l~abel]
+![Test Image 1](photos/schemat.jpg)
+
 
 Kosztorys projektu
 ==================
 
-1.  Arduino Nano klon - **21.00 z³**
+1.  Arduino Nano klon - **21.00 zÅ‚**
 
-2.  P³ytka uniwersalna “U-11” - **element z laboratorium**
+2.  PÅ‚ytka uniwersalna â€œU-11â€ - **element z laboratorium**
 
-3.  Czujnik DHT22 - **22.00 z³**
+3.  Czujnik DHT22 - **22.00 zÅ‚**
 
-4.  Wyœwietlacz LCD - **17.50 z³**
+4.  WyÅ›wietlacz LCD - **17.50 zÅ‚**
 
-5.  Czujnik BMP280 - **12.00 z³**
+5.  Czujnik BMP280 - **12.00 zÅ‚**
 
-6.  Rezystor 10k - **0.05 z³**
+6.  Rezystor 10k - **0.05 zÅ‚**
 
-7.  Zegar czasu rzeczywistego RTC DS1307 - **11.60 z³**
+7.  Zegar czasu rzeczywistego RTC DS1307 - **11.60 zÅ‚**
 
-8.  Bateria 9V - **5.00 z³**
+8.  Bateria 9V - **5.00 zÅ‚**
 
-9.  Modu³ bluetooth HC-05 - **22.30 z³**
+9.  ModuÅ‚ bluetooth HC-05 - **22.30 zÅ‚**
 
-10. Potencjometr - **3.00 z³**
+10. Potencjometr - **3.00 zÅ‚**
 
-**Ca³kowity koszt stacji pogodowej - 114.45 z³**\
+**CaÅ‚kowity koszt stacji pogodowej - 114.45 zÅ‚**\
 
 Wnioski
 =======
 
--   Budowa stacji pogodowej jest czasoch³onnym zajêciem. Ma³y b³¹d mo¿e
-    kosztowaæ nawet kilka godzin pracy. Jednak podczas realizacji tego
-    projektu mo¿na siê nauczyæ wiele praktycznych rzeczy z dziedziny
+-   Budowa stacji pogodowej jest czasochÅ‚onnym zajÄ™ciem. MaÅ‚y bÅ‚Ä…d moÅ¼e
+    kosztowaÄ‡ nawet kilka godzin pracy. Jednak podczas realizacji tego
+    projektu moÅ¼na siÄ™ nauczyÄ‡ wiele praktycznych rzeczy z dziedziny
     elektroniki i programowania.
 
--   Najtrudniejszym etapem okaza³a siê realizacja odpowiednich po³¹czeñ
-    elektrycznych pomiedzy poszczególnymi elementami stacji pogodowej.
-    Natomiast najprostszym etapem by³o programowanie.
+-   Najtrudniejszym etapem okazaÅ‚a siÄ™ realizacja odpowiednich poÅ‚Ä…czeÅ„
+    elektrycznych pomiedzy poszczegÃ³lnymi elementami stacji pogodowej.
+    Natomiast najprostszym etapem byÅ‚o programowanie.
 
--   Porównuj¹c koszt zbudowania stacji pogodowej z cen¹ takiego
-    urz¹dzenia zakupionego w sklepie elektronicznym mo¿na dojœæ do
-    wniosku, ¿e czasami warto jest zrealizowaæ jakiœ projekt samemu i
-    zaoszczêdziæ pieni¹dze. Koszt stacji wyniós³ 114,45z³, gdzie w
-    sklepie elektronicznym trzeba zap³aciæ œrednio 150z³. Zamawiaj¹c
-    elementy do budowy stacji z Chin, a nie od Polskich poœredników,
-    mo¿na by by³o zaoszczêdziæ jeszcze wiêcej.
+-   PorÃ³wnujÄ…c koszt zbudowania stacji pogodowej z cenÄ… takiego
+    urzÄ…dzenia zakupionego w sklepie elektronicznym moÅ¼na dojÅ›Ä‡ do
+    wniosku, Å¼e czasami warto jest zrealizowaÄ‡ jakiÅ› projekt samemu i
+    zaoszczÄ™dziÄ‡ pieniÄ…dze. Koszt stacji wyniÃ³sÅ‚ 114,45zÅ‚, gdzie w
+    sklepie elektronicznym trzeba zapÅ‚aciÄ‡ Å›rednio 150zÅ‚. ZamawiajÄ…c
+    elementy do budowy stacji z Chin, a nie od Polskich poÅ›rednikÃ³w,
+    moÅ¼na by byÅ‚o zaoszczÄ™dziÄ‡ jeszcze wiÄ™cej.
 
 
